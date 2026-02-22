@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 console.log(`
 Інструкція з використання функції triangle():
 Функція приймає 4 аргументи: значення1, "тип1", значення2, "тип2".
