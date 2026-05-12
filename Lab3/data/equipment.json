@@ -7,7 +7,7 @@
       "shortname": "deeper-sonar",
       "description": "Бездротовий ехолот з вбудованим GPS. Транслює карту дна прямо на ваш смартфон.",
       "price": 8999,
-      "image": "https://placehold.co/200x200/1c404f/FFF?text=Deeper+Sonar"
+      "image": "https://placehold.co/200x200?text=Deeper+Sonar"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "shortname": "boat-kolibri",
       "description": "Двомісний ПВХ човен зі стаціонарним транцем під мотор. Стійкий до хвиль.",
       "price": 12500,
-      "image": "https://placehold.co/200x200/2b6177/FFF?text=PVC+Boat"
+      "image": "https://placehold.co/200x200?text=PVC+Boat"
     },
     {
       "id": 3,
@@ -23,7 +23,7 @@
       "shortname": "tackle-box",
       "description": "Багатоярусний ящик для безпечного зберігання гачків, блешень та інструментів.",
       "price": 1200,
-      "image": "https://placehold.co/200x200/1c404f/FFF?text=Tackle+Box"
+      "image": "https://placehold.co/200x200text=Tackle+Box"
     },
     {
       "id": 4,
@@ -31,7 +31,7 @@
       "shortname": "landing-net",
       "description": "Алюмінієвий підсак з прогумованою сіткою, що не травмує рибу.",
       "price": 850,
-      "image": "https://placehold.co/200x200/D93A54/FFF?text=Landing+Net"
+      "image": "https://placehold.co/200x200?text=Landing+Net"
     },
     {
       "id": 5,
@@ -39,7 +39,7 @@
       "shortname": "dive-light",
       "description": "Потужний LED-ліхтар для нічного підводного полювання або дослідження дна.",
       "price": 1450,
-      "image": "https://placehold.co/200x200/2b6177/FFF?text=Dive+Light"
+      "image": "https://placehold.co/200x200?text=Dive+Light"
     }
   ]
 }

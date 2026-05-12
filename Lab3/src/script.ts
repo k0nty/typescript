@@ -23,14 +23,6 @@ function getContentEl(): HTMLElement {
   return document.getElementById("content") as HTMLElement;
 }
 
-function setLoading(): void {
-  getContentEl().innerHTML = `
-    <div class="loading">
-      <div class="spinner"></div>
-      <p>Завантаження...</p>
-    </div>`;
-}
-
 async function fetchJSON<T>(url: string): Promise<T> {
   const response: Response = await fetch(url);
   if (!response.ok) {
@@ -40,7 +32,6 @@ async function fetchJSON<T>(url: string): Promise<T> {
 }
 
 async function loadCatalog(): Promise<void> {
-  setLoading();
   try {
     const categories: Category[] = await fetchJSON<Category[]>("./data/categories.json");
     renderCategoryLinks(categories);
@@ -98,7 +89,6 @@ function renderCategoryLinks(categories: Category[]): void {
 }
 
 async function loadCategory(shortname: string): Promise<void> {
-  setLoading();
   try {
     const data: CategoryData = await fetchJSON<CategoryData>(`./data/${shortname}.json`);
     renderProducts(data);
@@ -142,8 +132,8 @@ function renderProducts(data: CategoryData): void {
 function renderHome(): void {
   getContentEl().innerHTML = `
     <div class="home-section">
-      <h2>Ласкаво просимо до нашого каталогу!</h2>
-      <p>Обирай найкращі товари серед нашого асортименту.</p>
+      <h2>Ласкаво просимо до морського каталогу</h2>
+      <p>Тут є все для ідеальної риболовлі. Крім виправдань для викладача, чому ти все здаєш в останній момент.</p>
     </div>`
 }
 
