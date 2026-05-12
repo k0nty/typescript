@@ -1,45 +1,45 @@
 {
-  "category": "Екіпірування",
+  "category": "Морське спорядження",
   "items": [
     {
       "id": 1,
-      "name": "Костюм-поплавок Fladen Rescue",
-      "shortname": "fladen-suit",
-      "description": "Спеціальний морський комбінезон, який утримує людину на воді у разі падіння за борт.",
-      "price": 9800,
-      "image": "https://placehold.co/200x200?text=Rescue+Suit"
+      "name": "Ехолот Deeper Smart Sonar PRO+",
+      "shortname": "deeper-sonar",
+      "description": "Бездротовий ехолот з вбудованим GPS. Транслює карту дна прямо на ваш смартфон.",
+      "price": 8999,
+      "image": "https://placehold.co/200x200/1c404f/FFF?text=Deeper+Sonar"
     },
     {
       "id": 2,
-      "name": "Забродні чоботи (Вейдерси) Norfin",
-      "shortname": "waders-norfin",
-      "description": "Дихаючі вейдерси для тривалого перебування у воді під час забродної риболовлі.",
-      "price": 5600,
-      "image": "https://placehold.co/200x200?text=Waders"
+      "name": "Надувний човен Kolibri",
+      "shortname": "boat-kolibri",
+      "description": "Двомісний ПВХ човен зі стаціонарним транцем під мотор. Стійкий до хвиль.",
+      "price": 12500,
+      "image": "https://placehold.co/200x200/2b6177/FFF?text=PVC+Boat"
     },
     {
       "id": 3,
-      "name": "Поляризаційні окуляри Shimano",
-      "shortname": "polar-glasses",
-      "description": "Знімають відблиски з поверхні води, дозволяючи бачити рибу та рельєф дна.",
-      "price": 1150,
-      "image": "https://placehold.co/200x200?text=Glasses"
+      "name": "Рибальський ящик-органайзер",
+      "shortname": "tackle-box",
+      "description": "Багатоярусний ящик для безпечного зберігання гачків, блешень та інструментів.",
+      "price": 1200,
+      "image": "https://placehold.co/200x200/1c404f/FFF?text=Tackle+Box"
     },
     {
       "id": 4,
-      "name": "Термобілизна зимова",
-      "shortname": "thermal-underwear",
-      "description": "Комплект натільної білизни, що відводить вологу та зберігає тепло тіла.",
-      "price": 1300,
-      "image": "https://placehold.co/200x200?text=Thermal+Wear"
+      "name": "Підсак розкладний телескопічний",
+      "shortname": "landing-net",
+      "description": "Алюмінієвий підсак з прогумованою сіткою, що не травмує рибу.",
+      "price": 850,
+      "image": "https://placehold.co/200x200/D93A54/FFF?text=Landing+Net"
     },
     {
       "id": 5,
-      "name": "Гермомішок 40Л",
-      "shortname": "dry-bag",
-      "description": "Сумка зі щільного ПВХ для захисту речей, документів та електроніки від води.",
-      "price": 650,
-      "image": "https://placehold.co/200x200?text=Dry+Bag"
+      "name": "Водонепроникний ліхтар підводний",
+      "shortname": "dive-light",
+      "description": "Потужний LED-ліхтар для нічного підводного полювання або дослідження дна.",
+      "price": 1450,
+      "image": "https://placehold.co/200x200/2b6177/FFF?text=Dive+Light"
     }
   ]
 }
