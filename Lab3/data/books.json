@@ -1,0 +1,45 @@
+{
+  "category": "Книги",
+  "items": [
+    {
+      "id": 1,
+      "name": "«Чистий код» Роберт Мартін",
+      "shortname": "clean-code",
+      "description": "Класичний посібник про написання якісного та читабельного коду для програмістів.",
+      "price": 549,
+      "image": "https://placehold.co/200x200?text=Clean+Code"
+    },
+    {
+      "id": 2,
+      "name": "«Кобзар» Тарас Шевченко",
+      "shortname": "kobzar",
+      "description": "Найвідоміший збірник поезій видатного українського поета. Lorem ipsum dolor.",
+      "price": 299,
+      "image": "https://placehold.co/200x200?text=Kobzar"
+    },
+    {
+      "id": 3,
+      "name": "«Гаррі Поттер і Філософський камінь»",
+      "shortname": "harry-potter-1",
+      "description": "Перша книга культової серії Джоан Роулінг про юного чарівника.",
+      "price": 399,
+      "image": "https://placehold.co/200x200?text=Harry+Potter"
+    },
+    {
+      "id": 4,
+      "name": "«JavaScript: The Good Parts»",
+      "shortname": "js-good-parts",
+      "description": "Книга Дугласа Крокфорда про найкращі практики JavaScript. Lorem ipsum consectetur.",
+      "price": 489,
+      "image": "https://placehold.co/200x200?text=JS+Good+Parts"
+    },
+    {
+      "id": 5,
+      "name": "«Атлант розправив плечі» Айн Ренд",
+      "shortname": "atlas-shrugged",
+      "description": "Філософський роман про свободу, раціоналізм та рушійні сили прогресу.",
+      "price": 699,
+      "image": "https://placehold.co/200x200?text=Atlas+Shrugged"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "category": "Одяг",
+  "items": [
+    {
+      "id": 1,
+      "name": "Куртка Nike Windrunner",
+      "shortname": "nike-windrunner",
+      "description": "Легка вітрозахисна куртка для бігу та активного відпочинку.",
+      "price": 2799,
+      "image": "https://placehold.co/200x200?text=Nike+Jacket"
+    },
+    {
+      "id": 2,
+      "name": "Джинси Levi's 501",
+      "shortname": "levis-501",
+      "description": "Класичні прямі джинси з 100% бавовни. Lorem ipsum dolor sit amet.",
+      "price": 1999,
+      "image": "https://placehold.co/200x200?text=Levis+501"
+    },
+    {
+      "id": 3,
+      "name": "Футболка Adidas Originals",
+      "shortname": "adidas-tshirt",
+      "description": "Базова футболка з м'якого бавовняного матеріалу з логотипом Adidas.",
+      "price": 899,
+      "image": "https://placehold.co/200x200?text=Adidas+Tee"
+    },
+    {
+      "id": 4,
+      "name": "Светр Zara Knit",
+      "shortname": "zara-knit",
+      "description": "Стильний в'язаний светр для прохолодної погоди. Lorem ipsum consectetur.",
+      "price": 1499,
+      "image": "https://placehold.co/200x200?text=Zara+Knit"
+    },
+    {
+      "id": 5,
+      "name": "Кросівки New Balance 574",
+      "shortname": "nb-574",
+      "description": "Класичні кросівки з амортизацією ENCAP для комфортного носіння.",
+      "price": 3299,
+      "image": "https://placehold.co/200x200?text=NB+574"
+    },
+    {
+      "id": 6,
+      "name": "Шарф Woolen Premium",
+      "shortname": "woolen-scarf",
+      "description": "Теплий вовняний шарф ручної роботи, різні кольори.",
+      "price": 599,
+      "image": "https://placehold.co/200x200?text=Scarf"
+    }
+  ]
+}

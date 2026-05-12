@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Електроніка",
+    "shortname": "electronics",
+    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "id": 2,
+    "name": "Одяг",
+    "shortname": "clothing",
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "name": "Книги",
+    "shortname": "books",
+    "notes": "Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor."
+  },
+  {
+    "id": 4,
+    "name": "Спорт",
+    "shortname": "sports",
+    "notes": ""
+  }
+]
