@@ -23,7 +23,7 @@
       "shortname": "tackle-box",
       "description": "Багатоярусний ящик для безпечного зберігання гачків, блешень та інструментів.",
       "price": 1200,
-      "image": "https://placehold.co/200x200text=Tackle+Box"
+      "image": "https://placehold.co/200x200?text=Tackle+Box"
     },
     {
       "id": 4,
