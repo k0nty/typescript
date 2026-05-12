@@ -31,7 +31,7 @@ function loadCatalog() {
     return __awaiter(this, void 0, void 0, function* () {
         setLoading();
         try {
-            const categories = yield fetchJSON("data/categories.json");
+            const categories = yield fetchJSON("./data/categories.json");
             renderCategoryLinks(categories);
         }
         catch (err) {
@@ -57,7 +57,7 @@ function renderCategoryLinks(categories) {
         ${listItems}
         <li>
           <a href="#" id="specials-link" class="category-link specials">
-            ⭐ Specials
+            <b>Specials</b>
           </a>
         </li>
       </ul>
@@ -84,7 +84,7 @@ function loadCategory(shortname) {
     return __awaiter(this, void 0, void 0, function* () {
         setLoading();
         try {
-            const data = yield fetchJSON(`data/${shortname}.json`);
+            const data = yield fetchJSON(`./data/${shortname}.json`);
             renderProducts(data);
         }
         catch (err) {
@@ -120,10 +120,10 @@ function renderProducts(data) {
 }
 function renderHome() {
     getContentEl().innerHTML = `
-    <section class="home-section">
-      <h2>Ласкаво просимо до нашого магазину!</h2>
-      <p>Оберіть розділ у навігаційному меню або перейдіть до <strong>Каталогу</strong>, щоб переглянути товари.</p>
-    </section>`;
+    <div class="home-section">
+      <h2>Ласкаво просимо до нашого каталогу!</h2>
+      <p>Обирай найкращі товари серед нашого асортименту.</p>
+    </div>`;
 }
 function initNavigation() {
     const homeLink = document.getElementById("nav-home");
@@ -137,8 +137,29 @@ function initNavigation() {
         loadCatalog();
     });
 }
+function initSubmarineCursor() {
+    const sub = document.getElementById("cursor-submarine");
+    if (!sub)
+        return;
+    let targetX = window.innerWidth / 2;
+    let targetY = window.innerHeight / 2;
+    let currentX = targetX;
+    let currentY = targetY;
+    document.addEventListener("mousemove", (e) => {
+        targetX = e.clientX;
+        targetY = e.clientY;
+    });
+    function animateSubmarine() {
+        currentX += (targetX - currentX) * 0.08;
+        currentY += (targetY - currentY) * 0.08;
+        sub.style.transform = `translate(${currentX - 150}px, ${currentY - 150}px) scale(0.35)`;
+        requestAnimationFrame(animateSubmarine);
+    }
+    animateSubmarine();
+}
 document.addEventListener("DOMContentLoaded", () => {
     initNavigation();
     renderHome();
+    initSubmarineCursor();
 });
 //# sourceMappingURL=script.js.map

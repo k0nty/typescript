@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Електроніка",
-    "shortname": "electronics",
-    "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "name": "Вудилища та котушки",
+    "shortname": "rods",
+    "notes": "Спінінги, фідери та морські мультиплікатори"
   },
   {
     "id": 2,
-    "name": "Одяг",
-    "shortname": "clothing",
-    "notes": ""
+    "name": "Приманки та наживки",
+    "shortname": "lures",
+    "notes": "Воблери, блешні, силіконові приманки"
   },
   {
     "id": 3,
-    "name": "Книги",
-    "shortname": "books",
-    "notes": "Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor."
+    "name": "Морське спорядження",
+    "shortname": "equipment",
+    "notes": "Ехолоти, навігація, човни та аксесуари"
   },
   {
     "id": 4,
-    "name": "Спорт",
-    "shortname": "sports",
-    "notes": ""
+    "name": "Екіпірування",
+    "shortname": "clothing",
+    "notes": "Водонепроникні костюми, заброди, термобілизна"
   }
 ]

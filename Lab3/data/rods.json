@@ -1,0 +1,45 @@
+{
+  "category": "Вудилища та котушки",
+  "items": [
+    {
+      "id": 1,
+      "name": "Спінінг Shimano Sea Bass",
+      "shortname": "shimano-sea-bass",
+      "description": "Морський спінінг підвищеної міцності. Ідеально підходить для ловлі з човна та берега.",
+      "price": 3450,
+      "image": "https://placehold.co/200x200?text=Shimano+Rod"
+    },
+    {
+      "id": 2,
+      "name": "Мультиплікаторна котушка Penn Squall",
+      "shortname": "penn-squall",
+      "description": "Легендарна котушка для тролінгу та глибоководної риболовлі. Захист від солоної води.",
+      "price": 5200,
+      "image": "https://placehold.co/200x200?text=Penn+Reel"
+    },
+    {
+      "id": 3,
+      "name": "Фідерне вудилище Brain Apex",
+      "shortname": "brain-apex",
+      "description": "Універсальний фідер для ловлі на дальніх дистанціях. Тест до 150 грамів.",
+      "price": 1899,
+      "image": "https://placehold.co/200x200?text=Feeder+Rod"
+    },
+    {
+      "id": 4,
+      "name": "Котушка Daiwa Ninja LT",
+      "shortname": "daiwa-ninja",
+      "description": "Легка та надійна безінерційна котушка з плавним ходом. Відмінний вибір для новачка.",
+      "price": 1650,
+      "image": "https://placehold.co/200x200?text=Daiwa+Ninja"
+    },
+    {
+      "id": 5,
+      "name": "Комплект для зимової риболовлі",
+      "shortname": "winter-rod-set",
+      "description": "Коротка вудка з чутливим кивком та невеликою котушкою для підлідного лову.",
+      "price": 450,
+      "image": "https://placehold.co/200x200?text=Winter+Set"
+    }
+  ]
+}

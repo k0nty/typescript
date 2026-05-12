@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shop Catalog</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <span class="logo">🛒 Shop Catalog</span>
-    <nav>
-      <a href="#" id="nav-home">🏠 Додому</a>
-      <a href="#" id="nav-catalog">📦 Каталог</a>
-    </nav>
-  </header>
+    <header>
+        <span class="logo">🛒 Shop Catalog</span>
+        <nav>
+            <a href="#" id="nav-home">
+                Додому
+            </a>
+            <a href="#" id="nav-catalog">
+                Каталог
+            </a>
+        </nav>
+    </header>
 
-  <main>
-    <div id="content"></div>
-  </main>
+    <main>
+        <div id="content">
+            </div>
+    </main>
 
-  <script src="build/js/script.js"></script>
+    <div class="sea" id="cursor-submarine">
+        <div class="circle-wrapper">
+            <div class="bubble"></div>
+            <div class="submarine-wrapper">
+                <div class="submarine-body">
+                    <div class="window"></div>
+                    <div class="engine"></div>
+                    <div class="light"></div>
+                </div>
+                <div class="helix"></div>
+                <div class="hat">
+                  <div class="leds-wrapper">
+                      <div class="periscope"></div>
+                      <div class="leds"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="build/js/script.js"></script>
 
 </body>
 </html>

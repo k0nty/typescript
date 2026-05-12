@@ -1,0 +1,45 @@
+{
+  "category": "Приманки та наживки",
+  "items": [
+    {
+      "id": 1,
+      "name": "Воблер Rapala Deep Tail Dancer",
+      "shortname": "rapala-deep",
+      "description": "Спеціальний воблер, який здатний занурюватися на екстремальні глибини до 9 метрів.",
+      "price": 420,
+      "image": "https://placehold.co/200x200?text=Rapala+Lure"
+    },
+    {
+      "id": 2,
+      "name": "Набір силіконових приманок Keitech",
+      "shortname": "keitech-set",
+      "description": "Їстівний японський силікон, який провокує на атаку навіть пасивного хижака. 10 шт.",
+      "price": 280,
+      "image": "https://placehold.co/200x200?text=Silicone+Baits"
+    },
+    {
+      "id": 3,
+      "name": "Блешня коливалка Mepps Syclops",
+      "shortname": "mepps-syclops",
+      "description": "Класична французька блешня з унікальним профілем, що імітує поранену рибку.",
+      "price": 195,
+      "image": "https://placehold.co/200x200?text=Spoon+Bait"
+    },
+    {
+      "id": 4,
+      "name": "Пількер морський 100g",
+      "shortname": "sea-pilker",
+      "description": "Важка металева приманка для вертикального джигу в морі. Оснащена міцним трійником.",
+      "price": 310,
+      "image": "https://placehold.co/200x200?text=Sea+Pilker"
+    },
+    {
+      "id": 5,
+      "name": "Поппер Strike Pro",
+      "shortname": "strike-pro-popper",
+      "description": "Поверхнева приманка для ловлі щуки в зарослих водоймах. Створює гучний 'бульк'.",
+      "price": 250,
+      "image": "https://placehold.co/200x200?text=Popper"
+    }
+  ]
+}

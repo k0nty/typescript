@@ -71,7 +71,7 @@ function renderCategoryLinks(categories: Category[]): void {
         ${listItems}
         <li>
           <a href="#" id="specials-link" class="category-link specials">
-            ⭐ Specials
+            <b>Specials</b>
           </a>
         </li>
       </ul>
@@ -141,10 +141,10 @@ function renderProducts(data: CategoryData): void {
 
 function renderHome(): void {
   getContentEl().innerHTML = `
-    <section class="home-section">
-      <h2>Ласкаво просимо до нашого магазину!</h2>
-      <p>Оберіть розділ у навігаційному меню або перейдіть до <strong>Каталогу</strong>, щоб переглянути товари.</p>
-    </section>`;
+    <div class="home-section">
+      <h2>Ласкаво просимо до нашого каталогу!</h2>
+      <p>Обирай найкращі товари серед нашого асортименту.</p>
+    </div>`
 }
 
 function initNavigation(): void {
@@ -162,7 +162,35 @@ function initNavigation(): void {
   });
 }
 
+function initSubmarineCursor(): void {
+  const sub = document.getElementById("cursor-submarine") as HTMLElement | null;
+  if (!sub) return;
+
+  let targetX = window.innerWidth / 2;
+  let targetY = window.innerHeight / 2;
+
+  let currentX = targetX;
+  let currentY = targetY;
+
+  document.addEventListener("mousemove", (e: MouseEvent): void => {
+    targetX = e.clientX;
+    targetY = e.clientY;
+  });
+
+  function animateSubmarine(): void {
+    currentX += (targetX - currentX) * 0.08;
+    currentY += (targetY - currentY) * 0.08;
+
+    sub!.style.transform = `translate(${currentX - 150}px, ${currentY - 150}px) scale(0.35)`;
+
+    requestAnimationFrame(animateSubmarine);
+  }
+
+  animateSubmarine();
+}
+
 document.addEventListener("DOMContentLoaded", (): void => {
   initNavigation();
   renderHome();
+  initSubmarineCursor();
 });
